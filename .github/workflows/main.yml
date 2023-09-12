@@ -21,7 +21,7 @@ the job
     - name: Deploy using ssh 
       uses: appleboy/ssh-action@master 
       with: 
-st: ${{ secrets.HOST }} 
+host: ${{ secrets.HOST }} 
         username: ${{ secrets.USERNAME }} 
         key: ${{ secrets.SSH_PRIVATE_KEY }} 
         port: 22 
